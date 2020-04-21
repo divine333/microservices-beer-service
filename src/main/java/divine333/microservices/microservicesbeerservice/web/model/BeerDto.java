@@ -17,9 +17,10 @@ public class BeerDto {
 
     private UUID id;
     private Integer version;
-    private OffsetDateTime createdDate;
-    private  OffsetDateTime lastModifiedDate;
-    private String beerName;
+   private OffsetDateTime createdDate;
+   private  OffsetDateTime lastModifiedDate;
+  private String beerName;
+
     private BeerStyle beerStyle;
     private long upc;
     private BigDecimal price;
